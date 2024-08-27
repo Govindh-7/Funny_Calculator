@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<title>Calculator</title>
+<style>
+h1:hover{
+color:red;
+}
+button:hover
+{
+color:yellow;
+}
+img{
+height:50%;
+width:30%;
+}
+body{
+text-align:center;
+background:linear-gradient(to right, blue,grey);
+
+}
+input {
+            width: 30%; 
+            padding: 15px; 
+            font-size: 20px; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+            border: 1px solid #ccc; 
+        }
+         input:hover, input:focus {
+            border-color:red;
+         }
+button {
+            width: 5%;
+            padding: 15px;
+            font-size: 20px; 
+            margin: 10px 5px; 
+            border-radius: 5px; 
+            border: 1px solid #ccc; 
+            background-color: #f1f1f1; 
+            cursor: pointer; 
+        }
+         button:hover, button:focus {
+            border-color: yellow;
+            shape:circle;
+            }
+        
+</style>
+<body>
+<img src="https://i.pinimg.com/originals/9c/83/88/9c838839fcf2197a8d8007b27ba713a3.gif">
+<h1>Welcome to my Calculator</h1>
+<form action="MyServlet">
+<input name ="num1" placeholder="Enter a Value"></input>
+<input name ="num2" placeholder="Enter a Value"></input>
+<button name ="b1" value="1"> + </button><tr>
+<button name ="b1" value="2"> - </button>
+<button name ="b1" value="3"> * </button>
+<button name ="b1" value="4"> / </button>
+</form>
+</body>
+</html>
